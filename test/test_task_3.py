@@ -1,5 +1,5 @@
 try:
-    from task_1 import fn
+    from task_2 import fn
 except ImportError:
     fn = None
 # Create a test to check if function exists

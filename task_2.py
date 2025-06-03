@@ -1,6 +1,8 @@
+import math
 def fn(x):
-    """
-    You are given x integer. Calculate the value of the expression:
-    """
-    return 0
+    a = x*3
+    b = math.sqrt(a)
+    c = b//2
+    return c
 
+print(fn(6))

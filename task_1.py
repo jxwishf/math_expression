@@ -1,6 +1,9 @@
-def fn(x):
-    """
-    You are given x integer. Calculate the value of the expression:
-    """
-    return 0
+import math
 
+def fn(x):
+    b = x/2
+    c = math.sqrt(b)
+    return c
+
+
+print(fn(8))
